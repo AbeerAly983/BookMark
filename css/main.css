@@ -1,0 +1,89 @@
+::-webkit-input-placeholder {
+  color: #4b4c60 !important;
+  opacity: 0.8 !important;
+}
+body {
+  background-color: #4b4c60;
+}
+
+h3,
+label {
+  color: #f1efe3;
+  letter-spacing: 1px;
+}
+label {
+  font-weight: 700;
+  font-size: 20px;
+}
+button {
+  color: #4b4c60;
+  font-weight: 700;
+  border: none;
+  transition: all 0.3s;
+  border-radius: 5px;
+  background-color: #f1efe3;
+  font-size: 18px;
+  padding: 10px 24px;
+}
+.add {
+  opacity: 0.6;
+}
+.remove {
+  opacity: 1;
+}
+button:hover {
+  background-color: #f1efe3;
+}
+.form-control:focus {
+  box-shadow: 0 0 2px 3px #f1efe3b2;
+  border-color: #f1efe3;
+}
+.form-control {
+  border-color: #f1efe3;
+  transition: all 0.2s;
+}
+.table {
+  --bs-table-border-color: #4b4c60;
+}
+.table > :not(caption) > * > * {
+  background-color: #f1efe3;
+  color: #4b4c60;
+}
+.btn-update {
+  color: #f1efe3;
+  background-color: #4b4c60;
+}
+.btn-update:hover {
+  background-color: #424253;
+  color: #f1efe3;
+}
+.btn-danger {
+  color: #f1efe3 !important;
+}
+.btn-visit {
+  color: #4b4c60;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.table-wrapper {
+  overflow-x: auto;
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 0 30px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  background-color: #f1efe3;
+  color: #4b4c60;
+}
+@media screen and (min-width: 992px) {
+  .form {
+    width: 75%;
+  }
+  thead {
+    font-size: 20px;
+  }
+  tbody {
+    font-size: 18px;
+  }
+}
